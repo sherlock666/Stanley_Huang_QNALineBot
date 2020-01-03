@@ -41,43 +41,6 @@ from linebot.models import (
 ##### Function Import #####
 import subprocess
 
-from tools.apple_news import apple_newss
-apple_newss_content0, apple_newss_content1, apple_newss_content2 = apple_newss()
-
-''' ###bug
-from tools.gfl_article import gfl_articles
-gfl_articles_content0, gfl_articles_content1, gfl_articles_content2, gfl_articles_content3, gfl_articles_content4 = gfl_articles()
-
-
-from tools.tos_article import tos_articles
-tos_articles_content0, tos_articles_content1, tos_articles_content2, tos_articles_content3, tos_articles_content4 = tos_articles()
-
-from tools.fgo_article import fgo_articles
-fgo_articles_content0, fgo_articles_content1, fgo_articles_content2, fgo_articles_content3, fgo_articles_content4 = fgo_articles()
-'''
-
-from tools.weather import weather
-
-from tools.eyny_movie import eyny_movie
-
-from tools.ptt_gossiping import ptt_gossiping
-from tools.ptt_beauty import ptt_beauty
-from tools.ptt_hot import ptt_hot
-
-from tools.exchange_rate import exchange_rates
-
-#for exchange rate calculation but crash
-#content_ratecash,content_ratespot = exchange_rates(L)
-
-
-from tools.movie import movie
-from tools.yande_re import yande_res
-
-from tools.panx import panx
-from tools.technews import technews
-
-from imgurpython import ImgurClient
-
 ##### Main #####
 
 app = Flask(__name__)
