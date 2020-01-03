@@ -88,13 +88,14 @@ def callback():
 @app.route("/qnamaker", methods=['POST'])
 def get_answer(message_text):
 
-    url = "https://chevadymeowbotqna.azurewebsites.net/qnamaker/knowledgebases/4535ecb8-21ee-42c6-90a4-5b2529a710c4/generateAnswer"
+    #url = "https://chevadymeowbotqna.azurewebsites.net/qnamaker/knowledgebases/4535ecb8-21ee-42c6-90a4-5b2529a710c4/generateAnswer"
+    url = "https://clinicqabot.azurewebsites.net/qnamaker/knowledgebases/765f23c6-e11d-4c09-8219-c65613543492/generateAnswer"
     
     response = requests.post(
         url,
         json.dumps({'question': message_text}),
         headers={'Content-Type': 'application/json',
-                'Authorization': '9b2c32d0-31e2-469b-8ed8-4ad1c93ad90d'
+                'Authorization': '74a100ce-d665-4af2-9576-a3e641b5de47'
         }
         )
 
