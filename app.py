@@ -84,7 +84,7 @@ def callback():
     return 'ok'
 
 ##### QNA 設定區 勿動 #####
-'''
+
 @app.route("/qnamaker", methods=['POST'])
 def get_answer(message_text):
 
@@ -108,7 +108,7 @@ def get_answer(message_text):
             return answer
     except Exception:
         return "Error occurs when finding answer"
-'''
+
     
 ##### 處理訊息 #####
 
