@@ -20,6 +20,6 @@ beautifulsoup4==4.5.3
 line-bot-sdk==1.12.1
 imgurpython==1.1.7
 pandas == 0.25.3
-lxml==4.4.2
+lxml==4.6.2
 apiai == 1.2.3
 numpy == 1.18.0
